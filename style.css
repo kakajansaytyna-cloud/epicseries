@@ -92,7 +92,7 @@ nav ul li a:hover {
 
 .card:hover {
     width: 100%;
-    aspect-ratio: 3/4;
+    
     object-fit: cover;
     border-radius: 8px;
   transform: scale(1.05);
