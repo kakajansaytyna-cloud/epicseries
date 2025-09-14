@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ff0000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #1a1a1a, #0d0d0d);
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  animation: fadeIn 2s ease;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+}
+
+/* Kartlar */
+.section {
+  padding: 50px 40px;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-left: 5px solid #ff0000;
+  padding-left: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 8px;
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* İletişim */
+.contact {
+  padding: 50px 40px;
+  background: #1a1a1a;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact input,
+.contact textarea {
+  background: #333;
+  color: #fff;
+}
+
+.contact button {
+  background: #ff0000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background: #cc0000;
+}
+
+/* Animasyon */
+@keyframes fadeIn {
+  from {opacity: 0;
+     transform: translateY(-20px);
+    }
+  to {opacity: 1;
+     transform: translateY(0);
+    }
+}
