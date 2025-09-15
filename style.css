@@ -83,6 +83,7 @@ nav ul li a:hover {
 }
 
 .card {
+  width: 200px;
   background: #1a1a1a;
   border-radius: 10px;
   overflow: hidden;
@@ -91,8 +92,6 @@ nav ul li a:hover {
 }
 
 .card:hover {
-    width: 100%;
-    
     object-fit: cover;
     border-radius: 8px;
   transform: scale(1.05);
