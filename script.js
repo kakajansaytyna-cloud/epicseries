@@ -1,21 +1,17 @@
-// Basit form kontrolü
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-  alert("Habarnamanyz ugradyldy !");
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("menu");
+const overlay = document.getElementById("overlay");
+
+// Hamburger menü aç/kapa
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  menu.classList.toggle("active");
+  overlay.classList.toggle("active");
 });
 
-// EmailJS kütüphanesini ekle
-// <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-// ve init ile User ID'yi ekle
-emailjs.init("YOUR_USER_ID");
-
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-  e.preventDefault();
-  
-  emailjs.sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", this)
-    .then(function() {
-      alert("Mail başarıyla gönderildi!");
-    }, function(error) {
-      alert("Mail gönderilemedi: " + JSON.stringify(error));
-    });
+// Overlay tıklayınca menüyü kapat
+overlay.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  menu.classList.remove("active");
+  overlay.classList.remove("active");
 });
