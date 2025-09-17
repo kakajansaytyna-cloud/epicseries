@@ -1,207 +1,223 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tm">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Film & Dizi Sitesi</title>
+  <title>Epic Series Official Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+
   <!-- Navbar -->
-  <header>
-    <img src="logo.jpg" alt="Logo">
-    <nav>
-      <ul>
-        <li><a href="#">Esasy</a></li>
-        <li><a href="#diziler">Seriallar</a></li>
-        <li><a href="#filmler">Filmler</a></li>
-      </ul>
-    </nav>
-  </header>
+  <nav>
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo">
+    </div>
+    <div class="menu" id="menu">
+      <a href="#platny">Platny Filmler we Seriallar</a>
+      <a href="#kanal-filmler">Kanalymyzdaky Filimler</a>
+      <a href="#kanal-seriallar">Kanalymyzdaky Seriallar</a>
+      <a href="#taze">Taze goşuljak Filmler we Seriallar</a>
+      <a href="#bahalar">Ücretler Tablosy</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>Epic Series Turkmenistan</h1>
-    <p>Epic Series kanalymyza taze gosuljak filmlerin we seriallaryn adyny we kanalymyzda bar bolan filmler we Seriallary shu yerde gorup bilersiniz!</p>
-  </section>
-      <!-- kinolaryn bahalary -->
-      <section id="platny">
-        <h1><strong><b>PLATNY FILMLER WE SERIALLAR BARADA:</strong></h1>
-        <p>Saytdaky 1 bolumlik kinolaryn bahasy: <strong>1 TMT</strong></p>
-        <p>Saytdaky seriallaryn 1 Sezonyn bahasy: <strong>5 TMT</strong></p><br>
-        <p>Ayratyn oz halayan filiminizi zakaz etmek ucin 1 filimin bahasy: <strong>3 TMT</strong></p>
-        <p>Ayratyn oz halayan Serialynyzyn 1 sezonuny zakaz etmek ucin : <strong>8 TMT</strong></p>
-        <p><strong>Siz dine saytdaky platny kinolary dal basga videoda yada suratda goren basga kinolarynyzy hem bize yazyp satyn alyp bilersiniz</strong></p><br>
-        <p><strong>SATYN ALMAK UCIN Startdan shuna yazyn:@Darktrace_exe</strong></p>
-      </section>
+  <div class="overlay" id="overlay"></div>
 
-
-
-    <!-- taze gosuljak seriallar -->
-    <section id="diziler" class="section">
-    <h2>Kanalymyza Taze gosuljak seriallar we filmler</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/2/24/All_of_Us_Are_Dead.jpeg" alt="Dizi 1">
-        <h3>All of Us are Dead 1 Sezon</h3>
-      </div>
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/52/Twinkling_Watermelon.jpg" alt="Dizi 2">
-        <h3>Twinkling Watermelon</h3>
-      </div>
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Daredevil_season_1_poster.jpg" alt="Dizi 1">
-        <h3>Dare Devil 1 Sezon</h3>
-      </div>
-
-        <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/76/True_Beauty_TV_series_poster.jpg" alt="Dizi 2">
-        <h3>True Beuty</h3>
-      </div>
-
-       <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/54/Bloodhounds_%28South_Korean_TV_series%29.jpg" alt="Dizi 2">
-        <h3>Bloodhounds</h3>
-      </div>
-
-       <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/The_Sandman_Netflix.jpg" alt="Dizi 2">
-        <h3>The Sandman</h3>
-      </div>
-
-      
-
-      
-
-      <!-- Platny bolum -->
-
-    <section id="diziler" class="section">
+  <!-- Platny Filmler we Seriallar -->
+  <section class="section" id="platny">
     <h2>Platny Filmler we Seriallar</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/7d/Daredevil_Born_Again_season_1_poster.jpg" alt="Dizi 1">
-        <h3>Daredevil Born Again 1 2025</h3>
-        <a href="tmstart.me/Darktrace_exe">SATYN ALMAK UCIN Startdan shuna yaz:@darktrace_exe</a>
+    <div class="card-container">
+      <!-- Buraya platny film ve serial posterlerini koyabilirsin -->
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/7/7d/Daredevil_Born_Again_season_1_poster.jpg" alt="" width="160" height="240"></div>
+        <p>Daredevil Born Again 1 2025</p>
+      </div>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Dexter_Original_Sin_Title_Card.png" alt="" width="160" height="240"></div>
+        <p>Dexter Orginal Sin</p>
+      </div>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/tr/7/76/Penceremden_film_afi%C5%9Fi.jpg" alt="" width="160" height="240"></div>
+        <p>Penceremden (Through my window)</p>
       </div>
 
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Dexter_Original_Sin_Title_Card.png" alt="Dizi 1">
-        <h3>Dexter Orginal Sin</h3>
-        <a href="tmstart.me/Darktrace_exe">SATYN ALMAK UCIN Startdan shuna yaz:@darktrace_exe</a>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Saw_X_poster.png" alt="" width="160" height="240"></div>
+        <p>Saw X (Testere 10)</p>
       </div>
 
-       <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/tr/7/76/Penceremden_film_afi%C5%9Fi.jpg" alt="Dizi 1">
-        <h3>Penceremden (Through My window) </h3>
-        <a href="tmstart.me/Darktrace_exe">SATYN ALMAK UCIN Startdan shuna yaz:@darktrace_exe</a>
+    </div>
+  </section>
+
+  <!-- Kanalymyzdaky Filimler -->
+  <section class="section" id="kanal-filmler">
+    <h2>Kanalymyzdaky Filimler</h2>
+    <div class="card-container">
+      <!-- Buraya kanalındaki filmler -->
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/KoHposter.jpg" alt="" width="160" height="240"></div>
+        <p>Kingdom of Heaven</p>
+      </div>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/2/25/The_Spy_Who_Dumped_Me.png" alt="" width="160" height="240"></div>
+        <p>Beni Satan Casus</p>
+      </div>
+      
+       <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Eight_mile_ver2.jpg" alt="" width="160" height="240"></div>
+        <p>8 Mile (Eminem)</p>
       </div>
 
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Saw_X_poster.png" alt="Dizi 1">
-        <h3>Saw X (Testere X)</h3>
-        <a href="tmstart.me/Darktrace_exe">SATYN ALMAK UCIN Startdan shuna yaz:@darktrace_exe</a>
+       <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/a/ad/Legend_2015_poster.jpg" alt="" width="160" height="240"></div>
+        <p>Legend 2015</p>
       </div>
 
-           <div class="card">
-        <img src=" " alt="Dizi 1">
-        <h3>  </h3>
-        <a href="tmstart.me/Darktrace_exe">SATYN ALMAK UCIN Startdan shuna yaz:@darktrace_exe</a>
-      </div>
+    </div>
+  </section>
 
-
-
-
-  <!-- Diziler -->
-  <section id="diziler" class="section">
+  <!-- Kanalymyzdaky Seriallar -->
+  <section class="section" id="kanal-seriallar">
     <h2>Kanalymyzdaky Seriallar</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/9c/My_Name_TV_series.jpg" alt="Dizi 1">
-        <h3>My Name S1</h3>
+    <div class="card-container">
+      <!-- Buraya kanalındaki seriallar -->
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/9/9c/My_Name_TV_series.jpg" alt="" width="160" height="240"></div>
+        <p>My Name</p>
       </div>
-      <div class="card">
-        <img src="https://resizing.flixster.com/g8-v-g2ROh65TP2PdiBpxjCYHM8=/fit-in/705x460/v2/https://resizing.flixster.com/q_wE5VV71WQq54TTdAe2DlHvTaQ=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vY2YzMWI1Y2YtNGIyZS00NThlLTg0NTUtZGUyNjhlMWIxOGJhLmpwZw==" alt="Dizi 2">
-        <h3>Outer Banks sezon 1</h3>
-      </div>
-
-        <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Weak_Hero_Class_1.jpeg" alt="Dizi 2">
-        <h3>Weak hero class 1</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Outer_Banks_TV_series_logo.png" alt="" width="160" height="240"></div>
+        <p>Outer Banks sezon 1</p>
       </div>
 
-
-       <div class="cards">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Wednesday_%28Netflix_TV_series%29_logo.svg" alt="Dizi 1">
-        <h3>Wednesday Hemme bolumleri bar</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Weak_Hero_Class_1.jpeg" alt="" width="160" height="240"></div>
+        <p>Weak hero class 1</p>
       </div>
 
-       
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Parasyte_The_Grey_poster.png" alt="Dizi 1">
-        <h3>Parasyte the Gray</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Wednesday_%28Netflix_TV_series%29_logo.svg" alt="" width="160" height="240"></div>
+        <p>Wednesday Hemme bolumleri bar</p>
       </div>
 
-       <div class="card">
-        <img src="https://en.m.wikipedia.org/wiki/Sky_Rojo#/media/File%3ASkyRojo_LOGO.png" alt="Dizi 1">
-        <h3>Sky Rojo S1</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Parasyte_The_Grey_poster.png" alt="" width="160" height="240"></div>
+        <p>Parasyte the Gray</p>
       </div>
 
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/1/12/The_Queen%27s_Gambit_%28miniseries%29.png" alt="Dizi 1">
-        <h3>The Quuen's Gambit</h3>
-      </div>
-      <div class="card">
-        <img src="https://avatars.mds.yandex.net/i?id=39198dc6721afb84b57b5bf3db5b4aab9aff29d7-10921454-images-thumbs&n=13" alt="Dizi 1">
-        <h3>Weak hero class 2</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/f/f2/SkyRojo_LOGO.png" alt="" width="160" height="240"></div>
+        <p>Sky Rojo S1</p>
       </div>
 
-
-        <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/You_Season_1.jpg" alt="Dizi 1">
-        <h3>You 1 sezon</h3>
-
-
-        <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/31/Dexter_season_1_DVD.png" alt="Dizi 1">
-        <h3>Dexter 1 sezon</h3>
-
-        
-
-
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/1/12/The_Queen%27s_Gambit_%28miniseries%29.png" alt="" width="160" height="240"></div>
+        <p>The Quuen's Gambit</p>
       </div>
 
-
-
-    </div>
-  </section>
-
-  <!-- Filmler -->
-  <section id="filmler" class="section">
-    <h2>Kanalymyzdaky Filmler</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/2/25/The_Spy_Who_Dumped_Me.png" alt="Film 1">
-        <h3>Beni satan casus</h3>
-      </div>
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/9/9e/KoHposter.jpg" alt="Film 2">
-        <h3>kingdom of heaven 2005</h3>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://avatars.mds.yandex.net/i?id=39198dc6721afb84b57b5bf3db5b4aab9aff29d7-10921454-images-thumbs&n=13" alt="" width="160" height="240"></div>
+        <p>Weak hero class 2</p>
       </div>
 
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Eight_mile_ver2.jpg" alt="Film 2">
-        <h3>8 mile (Eminem) </h3>
+       <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/c/c6/You_Season_1.jpg" alt="" width="160" height="240"></div>
+        <p>You 1 sezon</p>
+      </div>
+
+       <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/3/31/Dexter_season_1_DVD.png" alt="" width="160" height="240"></div>
+        <p>Dexter 1 sezon</p>
       </div>
 
 
     </div>
   </section>
 
+  <!-- Taze goşuljak Filmler we Seriallar -->
+  <section class="section" id="taze">
+    <h2>Taze goşuljak Filmler we Seriallar</h2>
+    <div class="card-container">
+      <!-- Buraya yeni eklenen filmler ve seriallar -->
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/2/24/All_of_Us_Are_Dead.jpeg" alt="" width="160" height="240"></div>
+        <p>All_of_Us_Are_Dead</p>
+      </div>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/5/52/Twinkling_Watermelon.jpg" alt="" width="160" height="240"></div>
+        <p>Twinkling_Watermelon</p>
+      </div>
+    </div>
 
+    <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/1/1b/Daredevil_season_1_poster.jpg" alt="" width="160" height="240"></div>
+        <p>Dare Devil S1</p>
+      </div>
+      <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/7/76/True_Beauty_TV_series_poster.jpg" alt="" width="160" height="240"></div>
+        <p>True Beauty</p>
+      </div>
+        <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/5/54/Bloodhounds_%28South_Korean_TV_series%29.jpg" alt="" width="160" height="240"></div>
+        <p>Bloodhounds</p>
+      </div>
+
+         <div class="poster-card">
+        <div class="poster-placeholder"><img src="https://upload.wikimedia.org/wikipedia/en/e/ed/The_Sandman_Netflix.jpg" alt="" width="160" height="240"></div>
+        <p>The Sandman</p>
+      </div>
+
+  </section>
+
+  <!-- Ücretler Tablosy -->
+  <section class="section" id="bahalar">
+    <h2>Platny film yada Serial zakaz etmek yada satyn almak Barada</h2>
+    <div class="price-cards">
+      <div class="price-card">
+        <h3>Saytdaky 1 Filmin</h3>
+        <p>Bahasy: <span>1 TMT</span></p>
+        <p>Satyn almak ucin STARTDAN <br> shuna YAZYN: <span>@Darktrace_exe</span></p>
+      </div>
+      <div class="price-card">
+        <h3>Saytdaky 1 Serialyn 1 sezonunyn</h3>
+        <p>Bahasy: <span>5 TMT</span></p>
+        <p>Satyn almak ucin STARTDAN <br> shuna YAZYN: <span>@Darktrace_exe</span></p>
+      </div>
+      </div>
+      <div class="price-card">
+        <h3>Eger Saytda yok 1 filimi zakaz etmek isleseniz</h3>
+        <p>Bahasy: <span>3 TMT</span></p>
+        <p>Satyn almak ucin STARTDAN <br> shuna YAZYN: <span>@Darktrace_exe</span></p>
+      </div>
+      </div><br>
+      <div class="price-card">
+        <h3>Eger Saytda yok Serialyn 1 sezonuny <br> zakaz etmek isleseniz</h3>
+        <p>Bahasy: <span>8 TMT</span></p>
+        <p>Satyn almak ucin STARTDAN <br> shuna YAZYN: <span>@Darktrace_exe</span></p>
+      </div><br>
+      </div>
+      <div class="price-card">
+        <h3>Sponsorlyk Barada</h3>
+        <p>1 aylyk sponsorlygyn Bahasy: <span>20 TMT</span></p>
+        <p>1 Hepdeliik sponsorlygyn Bahasy: <span>10 TMT</span></p>
+        <p>3 gunlik sponsorlygyn Bahasy: <span>5 TMT</span></p>
+        <p>Kanalynyzy yada reklamanyzy <br> saytymyza Reklama etdirmek isleseniz <br> STARTDAN SHUNA YAZYN: <span>@Darktrace_exe</span></p>
+      </div>
+
+    <p>START KANALYMYZ <strong>@Epicseries</strong></p>      
+
+
+    </div>
+    
+  </section>
 
   <script src="script.js"></script>
 </body>
 </html>
-
